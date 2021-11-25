@@ -179,8 +179,7 @@ function Bonus(sample_name){
                 size: 10,
                 color:'rgb(129,6,15)'
             },
-            number: wfreq,
-            hoverinfo: 'number'
+            hoverinfo: 'skip'
         };
 
         let GaugeChart = [NeedleCenter, GaugeData];
